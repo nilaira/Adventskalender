@@ -74,10 +74,11 @@ h1 {
 }
 
 h2{
-    display: grid;
+    display: flex;
     grid-column: 1/-1;
     grid-row: 2/2;
     font-size: xx-large;
+    justify-contet: center;
 }
 
 div.box {
