@@ -36,6 +36,16 @@ body {
     div.box2 {
         display: grid;
     }
+
+    h2 {
+        display: grid;
+        grid-column: 1/-1;
+        grid-row: 2/2;
+        font-size: xx-large;
+        justify-contet: center;
+    }
+        
+        
 }
 
 @media screen and (max-width: 800px) {
@@ -64,6 +74,14 @@ body {
     div.box2 {
         display: grid;
     }
+
+    h2{
+    display: flex;
+    grid-column: 1/-1;
+    grid-row: 2/2;
+    font-size: xx-large;
+    justify-contet: center;
+    }
 }
 
 h1 {
@@ -71,14 +89,6 @@ h1 {
     grid-column: 1/-1;
     font-size: xxx-large;
     justify-content: center;
-}
-
-h2{
-    display: flex;
-    grid-column: 1/-1;
-    grid-row: 2/2;
-    font-size: xx-large;
-    justify-contet: center;
 }
 
 div.box {
